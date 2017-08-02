@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     //FADEOUT
     var boxFadeOut = $('#boxFadeOut');
-    boxFadeOut.click(function() {
+    boxFadeOut.hover(function() {
         boxFadeOut.fadeOut("slow")
     });
 
@@ -23,5 +23,5 @@ $(document).ready(function() {
                 $(this).animate("left", "-=200");
         })
     }
-    boxToggle.click(toggleFunc)
+    $(document).click(toggleFunc)
 });
