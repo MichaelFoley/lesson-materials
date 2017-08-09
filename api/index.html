@@ -5,15 +5,71 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>YoJS: APIs</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 
+    <section class="hero is-medium is-warning has-text-centered is-bold is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    YoJS
+                </h1>
+                <h2 class="subtitle">
+                    APIs and Such
+                </h2>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section class="page-sections">
+            <div class="columns">
+                <div class="column is-6 is-offset-3">
+                    <div class="field">
+                        <label class="label">Search:</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Search..." id="searchInput" />
+                        </div>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <button class="button is-primary" id="submitButton">Submit</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="result-items" class="page-sections">
 
+                <!-- <div class="column is-8 is-offset-2">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit
+                                        amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div> -->
 
+        </section>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
 </body>
+
 </html>
