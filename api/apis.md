@@ -6,15 +6,18 @@ Have you ever wondered how Google stores all of that data and how you can access
 
 For this lesson we will be using TVMaze's API, which is a public API. Most companies will make their APIs public and available for developers to utilize and experiment with, but much of them require signup and information to give you a unique key to use in order to access that information (think of it as your unique password created by the company).
 
-We will be using the TVMaze API since there is no signup required nor an API key required to use, so you can dive right into using it just by using the API URL. 
+We will be using the [TVMaze API](http://www.tvmaze.com/api) since there is no signup required nor an API key required to use, so you can dive right into using it just by using the API URL. 
 
 Other great APIs to experiment with are:
-    - OpenWeather API
-    - GIPHY API
-    - Wikipedia API
-    - Twitter API
-    - Google Maps API
-    - OMDB API
+    - [OpenWeather API](https://openweathermap.org/api)
+    - [GIPHY API](https://developers.giphy.com/)
+    - [Hacker News](https://github.com/HackerNews/API)
+    - [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
+    - [Twitter API](https://dev.twitter.com/overview/api)
+    - [Google Maps API](https://developers.google.com/maps/)
+    - [OMDB API](https://www.omdbapi.com/)
+
+***
 
 ## JSON
 
@@ -48,6 +51,7 @@ console.log(exampleJavaScriptObj.firstName) // logs Hannibal
 
 JSON is more strict than JavaScript Object literals. Quotation marks are required to wrap the keys and functions are not allowed to be stored as values.
 
+***
 
 ## READ THE DOCS
 Documentation is important everywhere, instruction manuals, textbook, journalism, etc. The same goes with programming. Although it is not impossible to use a library with little to no documentation, it will be difficult. Thankfully there are great libraries with great documentation, making it easy for all to use. 
@@ -60,5 +64,22 @@ Libraries We'll Use:
 - [TVMaze API](http://www.tvmaze.com/api)
 - [CORS-now](https://cors.now.sh/)
 
+***
 
 ## How APIs Work
+
+Try this link in your browser:  
+`http://api.tvmaze.com/search/shows?q=girls`
+
+You will see all of the data that TVMaze has on the show ***Girls*** in their database. Everything is organized in JSON with strings, numbers, arrays, or nested objects. You can harness this data and render this to your webpage. You can use AJAX through the jQuery library and make asynchronous API calls to TVMaze. 
+
+For a nice explainer of AJAX here are a few links:
+- [What is Ajax and Where is it Used in Technology?](http://www.seguetech.com/ajax-technology/)  
+- [QUORA: What is AJAX](https://www.quora.com/What-is-AJAX)
+- [YOUTUBE: JSON and AJAX with Real Examples](https://www.youtube.com/watch?v=rJesac0_Ftw)
+- [YOUTUBE: Working With APIs](https://www.youtube.com/watch?v=ecT42O6I_WI)
+
+Good Tutorials To Make Other Applications:
+- [YOUTUBE: Make A Weather App]()https://www.youtube.com/watch?v=eLK28VPJvCE
+- [YOUTUBE: Google Maps API](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
+- [YOUTUBE: JSON and AJAX with Real Examples](https://www.youtube.com/watch?v=rJesac0_Ftw)
