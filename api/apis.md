@@ -83,3 +83,10 @@ Good Tutorials To Make Other Applications:
 - [YOUTUBE: Make A Weather App]()https://www.youtube.com/watch?v=eLK28VPJvCE
 - [YOUTUBE: Google Maps API](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
 - [YOUTUBE: JSON and AJAX with Real Examples](https://www.youtube.com/watch?v=rJesac0_Ftw)
+
+***
+## What You'll Make
+
+You will build a IMDB-type application, where your users will be able to type in a show and display results to the page. Each entry/result should be able to link to it's page on TVMaze.
+
+![final image](./final-solution-image.png)
